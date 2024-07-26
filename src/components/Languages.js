@@ -10,12 +10,13 @@ import node from "../asset/node.png"
 import r from "../asset/r.png"
 import react from "../asset/react.png"
 import skl  from "../asset/scikit.png"
+import Space from "../asset/space.jpg"
 
 
 
 export default function Languages(){
     return(
-        <div style={{border: "1px solid grey", marginLeft:"22vh", marginTop:"3vh", paddingTop:"15px", paddingBottom:"15px", borderRadius:"11px"}}>
+        <div style={{border: "1px solid grey", marginLeft:"22vh", marginTop:"3vh", paddingTop:"15px", paddingBottom:"15px", borderRadius:"11px", background:`url(${Space})`, filter:"brightness(150%)"}}>
             <div style={{display:"flex", marginTop:"2vh",marginLeft:"55px"}}>
                 <span style={{fontSize:25,  textDecoration: 'underline', color:"lightgrey"}} >Languages & FrameWorks:</span>
             </div>
